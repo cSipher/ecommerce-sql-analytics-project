@@ -167,6 +167,7 @@ ORDER BY Segment;
 
 6. LTV (Lifetime Value)
 12-Month LTV:
+
 WITH FirstOrder AS (
     SELECT CustomerID, MIN(OrderDate) AS FirstOrderDate
     FROM dbo.FactOrders
